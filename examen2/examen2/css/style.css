@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+
+@font-face{
+	font-family: 'Catamaran';
+	src:url("../fonts/Catamaran-VariableFont_wght.ttf") format('truetype');
+}
+
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+	--color-blanco: #fff;
+}
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+#hero{
+padding: 50px;	
+background-image: url("../img/slider-glob.png");
+background-color: var(--color-negro);
+}
+
+.line{
+border: none;	
+	
+}
+
+#hero h2{
+	color: var(--color-blanco);
+	font-weight: 500;
+	text-align: left;
+}
+
+#hero h1{
+	color: var(--color-naranja);
+	font-weight: 500;
+	text-align: left;
+}
+#hero p{
+	color:var(--color-contenido);
+	font-size: 14px;
+	text-align: left;
+}
+
+#hero a{
+	color:var(--color-negro);
+	font-weight: 700;
+	text-align: center;
+}
+
+#hero .btn-warning{
+	border-radius: 50px;
+}
+
+#popular-goods{
+	padding: 50px;
+	text-align: center;
+}
+
+
+#popular-goods h5{
+	color: var(--color-naranja);
+	font-size: 14px;
+	font-weight: 800;
+	
+}
+
+#popular-goods h3{
+	color: var(--color-titulos);
+	font-weight: 700;
+}
+
+.food-info h4{
+	color: var(--color-negro);
+	font-size: 16px;
+	
+}
+
+.food-info p{
+	color: var(--color-contenido);
+	font-size: 14px;
+}
+
+.food-info h3{
+	font-size: 16px;
+
+}
+
+.food-info .btn{
+	border-radius: 50px;
+}
+
+.food-info a{
+	font-size: 12px;
+	font-weight: 500;
+}
+
+
+#sit-at-home{
+	background-color: var(--color-negro);
+	padding: 50px;
+	
+}
+
+#sit-at-home h2{
+	color: var(--color-naranja);
+	font-weight: 700;
+	padding-left: 30px;
+}
+
+#sit-at-home p{
+	color:var(--color-contenido);
+	font-size: 14px;
+	padding-left: 30px;
+}
+
+
+#sit-at-home h3{
+	color: var(--color-blanco);
+	font-weight: 700;
+	padding-left: 30px;
+}
+
+#sit-at-home .iconos{
+	padding-left: 30px;
+
+}
+
+#sit-at-home .iconos p{
+	font-size: 12px;
+	
+	
+}
+#sit-at-home .btn{
+	
+	padding-left: 30px;
+}
+#sit-at-home .btn-warning{
+	border-radius: 40px;
+	padding-left: 30px;
+	
+}
+
+#sit-at-home a{
+	text-align: center;
+	font-weight: 700;
+	font-size: 14px;
+	padding-left: 30px;
+}
+footer{
+	background-color: #282932;
+	background-image: url( "../img/footer-bg.png");
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
